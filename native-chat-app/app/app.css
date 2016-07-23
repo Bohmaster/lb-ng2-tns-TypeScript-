@@ -1,0 +1,69 @@
+﻿@import url("~/platform.css");
+
+Page {
+  background-color: white;
+  font-size: 15;
+}
+
+ActionBar {
+  padding-top: 20;
+  background-color: #000B31;
+  color: white;
+}
+
+TextField {
+  padding: 15;
+  font-size: 20;
+}
+
+Button {
+  padding: 20 auto;
+}
+
+.small-spacing {
+  margin: 10;
+}
+
+.medium-spacing {
+  margin: 15;
+}
+
+.text-box {
+  font-size: 16;
+  background-color: #f6f6f6;
+  border-radius: 10;
+  margin-bottom: 10;
+}
+
+.primary-btn {
+  background-color: #E43850;
+  color: white;
+}
+
+.text-white {
+  color: white;
+}
+
+.hide-in-top{
+  transform: translate(0, -1000);
+}
+
+.hide-in-bottom{
+  transform: translate(0, 1000);
+}
+
+.pull{
+  transform: translate(0, 20);
+}
+
+.hide-in-left{
+  transform: translate(-1000, 0);
+}
+
+.hide-in-right{
+  transform: translate(1000, 0);
+}
+
+.opacity-zero {
+  opacity: 0;
+}

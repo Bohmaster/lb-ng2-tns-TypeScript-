@@ -1,0 +1,29 @@
+StackLayout {
+  padding-top: 15;
+  padding-bottom: 15;
+}
+
+TextField {
+  text-align: center;
+  color: red;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+}
+
+
+Button, TextField {
+  margin-left: 16;
+  margin-right: 16;
+  margin-bottom: 10;
+}
+
+.background {
+  background-image: url("res://bg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: 35%;
+}
